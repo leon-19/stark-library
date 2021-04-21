@@ -2,10 +2,10 @@ from mysql import connector
 from prettytable import PrettyTable, from_db_cursor
 
 conn = connector.connect(
-    user='root',
-    password='Buster',
-    host='127.0.0.1',
-    port=3306,
+    user='WliOGqdNyk',
+    password='Tzig520BUZqVeodvslIg',
+    host='mysql-9f20.euw2.gcp.cloud.ametnes.com',
+    port=31622,
     auth_plugin='mysql_native_password',
     database="stark_library"
 )
